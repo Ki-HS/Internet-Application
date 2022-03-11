@@ -6,35 +6,35 @@ Computers and the Internet are the most important factors leading the informatio
 
 ### It consists of a total of 15 weeks.
 
-[x] 1. Overview of Web programming and HTML5
+- [x] 1. Overview of Web programming and HTML5
 
-[x] 2. Create HTML5 document
+- [x] 2. Create HTML5 document
 
-[] 3. Structring HTML5 document and web form
+- [ ] 3. Structring HTML5 document and web form
 
-[] 4. Decorating web pages with CSS3 1
+- [ ] 4. Decorating web pages with CSS3 1
 
-[] 5. Decorating web pages with CSS3 2
+- [ ] 5. Decorating web pages with CSS3 2
 
-[] 6. CSS3 Advanced Utilization
+- [ ] 6. CSS3 Advanced Utilization
 
-[] 7. CSS3 Advanced Utilization Practice
+- [ ] 7. CSS3 Advanced Utilization Practice
 
-[] 8. Midterm Examination
+- [ ] 8. Midterm Examination
 
-[] 9. Javascript language
+- [ ] 9. Javascript language
 
-[] 10. Javacript core object and Array
+- [ ] 10. Javacript core object and Array
 
-[] 11. HTML DOM and Document 1
+- [ ] 11. HTML DOM and Document 1
 
-[] 12. HTML DOM and Document 2
+- [ ] 12. HTML DOM and Document 2
 
-[] 13. The basics and utilization of the event 1
+- [ ] 13. The basics and utilization of the event 1
 
-[] 14. The basics and utilization of the event 2
+- [ ] 14. The basics and utilization of the event 2
 
-[] 15. Final Examination
+- [ ] 15. Final Examination
 
 ---
 
