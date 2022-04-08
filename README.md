@@ -16,7 +16,7 @@ Computers and the Internet are the most important factors leading the informatio
 
 - [x] 5. Decorating web pages with CSS3 2
 
-- [ ] 6. CSS3 Advanced Utilization
+- [x] 6. CSS3 Advanced Utilization
 
 - [ ] 7. CSS3 Advanced Utilization Practice
 
