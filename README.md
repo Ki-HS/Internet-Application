@@ -10,11 +10,11 @@ Computers and the Internet are the most important factors leading the informatio
 
 - [x] 2. Create HTML5 document
 
-- [ ] 3. Structring HTML5 document and web form
+- [x] 3. Structring HTML5 document and web form
 
-- [ ] 4. Decorating web pages with CSS3 1
+- [x] 4. Decorating web pages with CSS3 1
 
-- [ ] 5. Decorating web pages with CSS3 2
+- [x] 5. Decorating web pages with CSS3 2
 
 - [ ] 6. CSS3 Advanced Utilization
 
