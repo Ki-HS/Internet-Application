@@ -18,13 +18,13 @@ Computers and the Internet are the most important factors leading the informatio
 
 - [x] 6. CSS3 Advanced Utilization
 
-- [ ] 7. CSS3 Advanced Utilization Practice
+- [x] 7. CSS3 Advanced Utilization Practice
 
-- [ ] 8. Midterm Examination
+- [x] 8. Midterm Examination
 
-- [ ] 9. Javascript language
+- [x] 9. Javascript language
 
-- [ ] 10. Javacript core object and Array
+- [x] 10. Javacript core object and Array
 
 - [ ] 11. HTML DOM and Document 1
 
