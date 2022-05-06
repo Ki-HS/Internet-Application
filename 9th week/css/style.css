@@ -45,6 +45,7 @@ table {
 }
 table img {
   transition: width 1s;
+  width: 30%;
 }
 table img:hover {
   width: 40%;
@@ -60,6 +61,7 @@ table {
   margin-top: 3%;
   width: 100%;
 }
+
 a {
   text-decoration: none;
 }
@@ -78,6 +80,6 @@ ul {
 .kind img {
   max-width: 350px;
   max-height: 350px;
-  width: 40%;
+  width: 30%;
   height: auto;
 }
