@@ -1,4 +1,5 @@
 media
+*.json
 *.docx
 *.zip
 *.png

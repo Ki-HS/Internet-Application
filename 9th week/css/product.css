@@ -1,0 +1,41 @@
+.product {
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  display: inline-flex;
+}
+
+.wrapper {
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  width: 60%;
+  background-color: white;
+  margin-left: 20%;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.product_img img {
+  width: 80%;
+  height: auto;
+}
+
+.product_detail {
+  margin: 30px 0;
+}
+.product_detail img {
+  width: 70%;
+}
+
+.product_description {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.product_action button {
+  margin: 0 5px;
+}

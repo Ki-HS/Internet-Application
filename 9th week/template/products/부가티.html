@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shop</title>
+    <!--css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/product.css" />
+    <!--js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <div class="col-md-8 home">
+        <a class="active" href="../index.html">쇼핑몰</a>
+      </div>
+      <div class="col-md-2 user">
+        <div>
+          <a href="../cart.html">Cart</a>
+        </div>
+        <div>
+          <a href="../info.html">Info.</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="product">
+        <div class="product_img col-md-7">
+          <img src="../../images/부가티.jpg" alt="" />
+        </div>
+        <div class="product_info col-md-5">
+          <div class="product_description">
+            <h4>부가티</h4>
+            <hr />
+            <p>부가티는 멋있습니다</p>
+            <h5>2,500원</h5>
+          </div>
+          <div class="product_action">
+            <button
+              id="cart_button"
+              onclick="alert('상품이 장바구니에 담겼습니다.')"
+            >
+              To Cart
+            </button>
+            <button id="like_button" onclick="alert('상품을 찜했습니다.')">
+              찜
+            </button>
+            <button id="buy_button" onclick="">BUY</button>
+          </div>
+        </div>
+      </div>
+      <div class="product_detail">
+        <hr />
+        <br />
+        <img src="../../images/부가티.jpg" alt="" />
+        <br />
+        <br />
+        부가티는
+        <br />
+        <br />
+        너무
+        <br />
+        <br />
+        멋있습니다.
+      </div>
+      <input type="button" value="BACK" onClick="history.go(-1)" />
+    </div>
+  </body>
+</html>

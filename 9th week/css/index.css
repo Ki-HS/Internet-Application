@@ -1,0 +1,50 @@
+.wrapper {
+  width: 70%;
+  margin-left: 15%;
+  background-color: white;
+}
+
+@keyframes ani {
+  0% {
+    transform: rotate(-90deg);
+  }
+  10% {
+    transform: rotate(90deg);
+  }
+  20% {
+    transform: rotate(-70deg);
+  }
+  30% {
+    transform: rotate(70deg);
+  }
+  40% {
+    transform: rotate(-50deg);
+  }
+  50% {
+    transform: rotate(50deg);
+  }
+  60% {
+    transform: rotate(-30deg);
+  }
+  70% {
+    transform: rotate(30deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  90% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.wrapper img {
+  margin-top: 10%;
+  width: 50%;
+  height: auto;
+  animation-name: ani;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+}
