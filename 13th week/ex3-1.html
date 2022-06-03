@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function phone(company, cost, type) {
+        this.company = company;
+        this.cost = cost;
+        this.type = type;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>객체의 생성 및 속성 값 참조</h1>
+    <script>
+      phone1 = new phone("a", 1, "aa");
+      phone2 = new phone("b", 2, "bb");
+
+      document.write(phone1.company, phone1.cost, phone1.type + "<br>");
+
+      document.write(phone2.company, phone2.cost, phone2.type + "<br>");
+      phone1.cost = 3;
+      document.write(phone1.company, phone1.cost, phone1.type + "<br>");
+    </script>
+  </body>
+</html>

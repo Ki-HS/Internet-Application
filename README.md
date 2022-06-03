@@ -26,7 +26,7 @@ Computers and the Internet are the most important factors leading the informatio
 
 - [x] 10. Javacript core object and Array
 
-- [ ] 11. HTML DOM and Document 1
+- [x] 11. HTML DOM and Document 1
 
 - [ ] 12. HTML DOM and Document 2
 
@@ -37,6 +37,3 @@ Computers and the Internet are the most important factors leading the informatio
 - [ ] 15. Final Examination
 
 ---
-
-
-

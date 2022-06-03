@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function hw_print() {
+        with (document) {
+          write(this.weight + " ");
+          write(this.camera + " ");
+          write(this.speaker + " ");
+          write(this.display + " ");
+          write(this.bezel + " ");
+          write("<br>");
+        }
+      }
+
+      function sw_print() {
+        with (document) {
+          write(this.flickering + " ");
+          write(this.refresh_rate + " ");
+          write(this.bootSpeed + " ");
+          write(this.imageStabilization + " ");
+          write(this.IPA + " ");
+          write("<br>");
+        }
+      }
+
+      function phone(
+        weight,
+        camera,
+        speaker,
+        display,
+        bezel,
+        flickering,
+        refresh_rate,
+        bootSpeed,
+        imageStabilization,
+        IPA
+      ) {
+        this.weight = weight;
+        this.camera = camera;
+        this.speaker = speaker;
+        this.display = display;
+        this.bezel = bezel;
+
+        this.flickering = flickering;
+        this.refresh_rate = refresh_rate;
+        this.bootSpeed = bootSpeed;
+        this.imageStabilization = imageStabilization;
+        this.IPA = IPA;
+
+        this.hw_print = hw_print;
+        this.sw_print = sw_print;
+      }
+    </script>
+  </head>
+  <body>
+    <script language="javascript">
+      phone1 = new phone(
+        "a",
+        "aa",
+        "aaa",
+        "aaaa",
+        "aaaaa",
+        1,
+        11,
+        111,
+        1111,
+        11111
+      );
+      phone2 = new phone(
+        "b",
+        "bb",
+        "bbb",
+        "bbbb",
+        "bbbbb",
+        2,
+        22,
+        222,
+        2222,
+        22222
+      );
+
+      phone1.hw_print();
+      phone2.hw_print();
+
+      phone1.sw_print();
+      phone2.sw_print();
+    </script>
+  </body>
+</html>
